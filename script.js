@@ -26,9 +26,9 @@ function insertNewRecord(data) {
     cell1 = newRow.insertCell(0);
     cell1.innerHTML = data.fullName;
     cell2 = newRow.insertCell(1);
-    cell2.innerHTML = data.empCode;
+    cell2.innerHTML = data.mobNo;
     cell3 = newRow.insertCell(2);
-    cell3.innerHTML = data.salary;
+    cell3.innerHTML = data.mailId;
     cell4 = newRow.insertCell(3);
     cell4.innerHTML = data.city;
     cell4 = newRow.insertCell(4);
